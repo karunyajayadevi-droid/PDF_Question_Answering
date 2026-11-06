@@ -1,0 +1,1705 @@
+﻿query_id,question,retrieved_chunks,rag_answer,non_rag_answer
+Q01,What is artificial intelligence?,"What is artiﬁcial intelligence (AI)?
+Updated 02 October 2026
+By Cole Stryker and Eda Kavlakoglu
+What is AI? 
+Artiﬁcial intelligence (AI) is technology that enables computers and
+machines to simulate human learning, comprehension, problem solving,
+Join IBM at AWS re:Invent
+Discover how we deliver AI speed with enterprise control on AWS
+Published 09 August 2024
+Welcome
+Introduction
+Machine Learning
+AI Agents
+Enterprise AI
+Responsible AI
+AI for code
+Chatbots
+AI platforms
+Artificial general intelligence (AGI)
+Prompt engineering
+AI use cases
+Industry applications
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 1/23
+decision making, creativity and autonomy.
+Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+
+ability to understand, learn and apply knowledge across a wide range of tasks at a level
+equal to or surpassing human intelligence. This level of AI is currently theoretical and no
+known AI systems approach this level of sophistication. Researchers argue that if AGI is
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 14/23
+even possible, it requires major increases in computing power. Despite recent advances in
+AI development, self-aware AI systems of science ﬁction remain ﬁrmly in that realm.
+History of AI 
+The idea of ""a machine that thinks"" dates back to ancient Greece. But since the advent of
+electronic computing (and relative to some of the topics discussed in this article) important
+events and milestones in the evolution of AI include the following:
+1950
+Alan Turing publishes Computing Machinery and Intelligence . In this paper, Turing
+
+based on rationality and thinking versus acting.
+
+
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 15/23
+1997
+IBM's Deep Blue beats then world chess champion Garry Kasparov, in a chess match (and
+rematch).
+2004
+John McCarthy writes a paper, What Is Artiﬁcial Intelligence? , and proposes an often-
+cited deﬁnition of AI. By this time, the era of big data and cloud computing is underway,
+enabling organizations to manage ever-larger data estates, which will one day be used to
+train AI models. 
+2011
+IBM Watson® beats champions Ken Jennings and Brad Rutter at Jeopardy! Also, around
+this time, data science begins to emerge as a popular discipline.
+2015
+Baidu's Minwa supercomputer uses a special deep neural network called a convolutional
+neural network to identify and categorize images with a higher rate of accuracy than the
+average human.
+2016
+
+might contain personal information, control what data goes into the
+model in the ﬁrst place, and to build adaptable systems that can adjust to
+changes in regulation and attitudes around AI ethics.
+Weak AI vs. Strong AI 
+In order to contextualize the use of AI at various levels of complexity and sophistication,
+researchers have deﬁned several types of AI that refer to its level of sophistication:
+Weak AI: Also known as “narrow AI,” deﬁnes AI systems designed to perform a speciﬁc
+task or a set of tasks. Examples might include “smart” voice assistant apps, such as
+Amazon’s Alexa, Apple’s Siri, a social media chatbot or the autonomous vehicles promised
+by Tesla.
+Strong AI: Also known as “artiﬁcial general intelligence” (AGI) or “general AI,” possess the
+ability to understand, learn and apply knowledge across a wide range of tasks at a level
+equal to or surpassing human intelligence. This level of AI is currently theoretical and no
+
+answers in the wanted format.
+–
+Reinforcement learning with human feedback (RLHF), in which human users evaluate
+the accuracy or relevance of model outputs so that the model can improve itself. This
+can be as simple as having people type or talk back corrections to a chatbot or virtual
+assistant.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 7/23
+AI agents and agentic AI
+An AI agent is an autonomous AI program, it can perform tasks and accomplish goals on
+behalf of a user or another system without human intervention, by designing its own
+workflow and using available tools (other applications or services).
+Agentic AI is a system of multiple AI agents, the efforts of which are coordinated, or
+orchestrated, to accomplish a more complex task or a greater goal than any single agent in
+the system could accomplish.","Artificial intelligence (AI) is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity and autonomy.","Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.
+
+AI systems are designed to perform tasks that typically require human intelligence, such as:
+
+1. Visual perception: AI can interpret and understand visual data from images and videos.
+2. Natural language processing: AI can understand, generate, and process human language, including speech recognition and text-to-speech synthesis.
+3. Decision-making: AI can analyze data, identify patterns, and make decisions based on that analysis.
+4. Learning: AI can learn from data and improve its performance over time.
+
+There are several types of AI, including:
+
+1. Narrow or weak AI: Designed to perform a specific task, such as facial recognition or language translation.
+2. General or strong AI: Designed to perform any intellectual task that a human can, such as reasoning, problem-solving, and learning.
+3. Superintelligence: Significantly more intelligent than the best human minds, potentially capable of solving complex problems that are currently unsolvable.
+
+AI has many applications in various fields, including:
+
+1. Virtual assistants: AI-powered virtual assistants, such as Siri, Alexa, and Google Assistant, can perform tasks, answer questions, and provide information.
+2. Image and speech recognition: AI can be used to recognize and classify images and speech, with applications in security, healthcare, and customer service.
+3. Autonomous vehicles: AI is used in self-driving cars to navigate roads, detect obstacles, and make decisions.
+4. Healthcare: AI can be used to analyze medical images, diagnose diseases, and develop personalized treatment plans.
+
+Overall, AI has the potential to revolutionize many aspects of our lives, from the way we interact with technology to the way we approach complex problems."
+Q02,What is machine learning?,"emerged over more than 70 years:
+How artificial intelligence, machine learning, deep learning and generative AI are related.
+Directly underneath AI, we have machine learning, which involves creating models by
+training an algorithm to make predictions or decisions based on data. It encompasses a
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 2/23
+broad range of techniques that enable computers to learn from and make inferences based
+on data without being explicitly programmed for speciﬁc tasks.
+There are many types of machine learning techniques or algorithms, including linear
+regression, logistic regression, decision trees, random forest, support vector
+machines (SVMs), k-nearest neighbor (KNN), clustering and more. Each of these
+approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network
+
+approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network
+(or artiﬁcial neural network). Neural networks are modeled after the human brain's
+structure and function. A neural network consists of interconnected layers of nodes
+(analogous to neurons) that work together to process and analyze complex data. Neural
+networks are well suited to tasks that involve identifying complex patterns and
+relationships in large amounts of data.
+The simplest form of machine learning is called supervised learning, which involves the use
+of labeled data sets to train algorithms to classify data or predict outcomes accurately. In
+supervised learning, humans pair each training example with an output label. The goal is
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+
+relationships in large amounts of data. Some form of deep learning powers most of the
+artiﬁcial intelligence (AI) applications in our lives today.
+Deep learning also enables:
+* All fields required
+Your subscription will be delivered in English. You will find an unsubscribe link in every newsletter.
+Refer to our IBM Privacy Statement for more information.
+Subscribe
+Semi-supervised learning, which combines supervised and unsupervised learning by
+using both labeled and unlabeled data to train AI models for classiﬁcation and
+regression tasks.
+–
+Self-supervised learning, which generates implicit labels from unstructured data, rather
+than relying on labeled data sets for supervisory signals.
+–
+Reinforcement learning, which learns by trial-and-error and reward functions rather
+than by extracting information from hidden patterns.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 4/23
+
+picking and manufacturing processes. This automation frees to work on higher value, more
+creative work.
+Enhanced decision-making
+Whether used for decision support or for fully automated decision-making, AI enables
+faster, more accurate predictions and reliable, data-driven decisions. Combined with
+automation, AI enables businesses to act on opportunities and respond to crises as they
+emerge, in real time and without human intervention.
+Fewer human errors
+AI can reduce human errors in various ways, from guiding people through the proper steps
+of a process, to flagging potential errors before they occur, and fully automating processes
+without human intervention. This is especially important in industries such as healthcare
+where, for example, AI-guided surgical robotics enable consistent precision.
+Machine learning algorithms can continually improve their accuracy and further reduce
+errors as they're exposed to more data and ""learn"" from experience.
+
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+Stay up to date on the most important—and intriguing—industry news on AI, automation,
+data, quantum, infrastructure and security with the Think Newsletter, delivered twice
+weekly. 
+First name*
+Last name*
+Business email*
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 3/23
+Deep learning
+Deep learning is a subset of machine learning that uses multilayered neural networks,
+called deep neural networks, that more closely simulate the complex decision-making
+power of the human brain.
+Deep neural networks include an input layer, at least three but usually hundreds of hidden
+layers, and an output layer, unlike neural networks used in classic machine learning","The answer is available in the PDF. According to the text, machine learning is a broad range of techniques that enable computers to learn from and make inferences based on data without being explicitly programmed for specific tasks.","Machine learning is a subset of artificial intelligence (AI) that involves training algorithms to make predictions or decisions based on data. It's a type of computer science that enables computers to learn from experience, without being explicitly programmed.
+
+In traditional programming, a computer is given a set of rules to follow. In machine learning, the computer is given a dataset and learns to identify patterns and relationships within that data. The algorithm then uses this knowledge to make predictions or decisions on new, unseen data.
+
+Machine learning can be divided into several types, including:
+
+1. Supervised learning: The algorithm is trained on labeled data, where the correct output is already known.
+2. Unsupervised learning: The algorithm is trained on unlabeled data, and it must find patterns or relationships on its own.
+3. Reinforcement learning: The algorithm learns through trial and error, receiving rewards or penalties for its actions.
+
+Machine learning has many applications, including:
+
+1. Image recognition
+2. Natural language processing
+3. Predictive analytics
+4. Recommendation systems
+5. Self-driving cars
+
+The key benefits of machine learning include:
+
+1. Improved accuracy
+2. Increased efficiency
+3. Enhanced decision-making
+4. Scalability
+
+However, machine learning also has some limitations and challenges, such as:
+
+1. Data quality and availability
+2. Algorithmic bias
+3. Interpretability and explainability
+4. Security and privacy concerns
+
+Overall, machine learning is a powerful tool that has the potential to revolutionize many industries and aspects of our lives."
+Q03,What is deep learning?,"Deep neural networks include an input layer, at least three but usually hundreds of hidden
+layers, and an output layer, unlike neural networks used in classic machine learning
+models, which usually have only one or two hidden layers.
+These multiple layers enable unsupervised learning: they can automate the extraction of
+features from large, unlabeled and unstructured data sets, and make their own predictions
+about what the data represents.
+Because deep learning doesn’t require human intervention, it enables machine learning at
+a tremendous scale. It is well suited to natural language processing (NLP), computer vision,
+and other tasks that involve the fast, accurate identiﬁcation complex patterns and
+relationships in large amounts of data. Some form of deep learning powers most of the
+artiﬁcial intelligence (AI) applications in our lives today.
+Deep learning also enables:
+* All fields required
+
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+Stay up to date on the most important—and intriguing—industry news on AI, automation,
+data, quantum, infrastructure and security with the Think Newsletter, delivered twice
+weekly. 
+First name*
+Last name*
+Business email*
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 3/23
+Deep learning
+Deep learning is a subset of machine learning that uses multilayered neural networks,
+called deep neural networks, that more closely simulate the complex decision-making
+power of the human brain.
+Deep neural networks include an input layer, at least three but usually hundreds of hidden
+layers, and an output layer, unlike neural networks used in classic machine learning
+
+generate extended sequences of content (such as words in sentences, shapes in an
+image, frames of a video or commands in software code). Transformers are at the core
+of most of today’s headline-making generative AI tools, including ChatGPT and GPT-4,
+Copilot, BERT, Bard and Midjourney.
+–
+See what’s next
+Training, to create a foundation model.1.
+Tuning, to adapt the model to a speciﬁc application.2.
+Generation, evaluation and more tuning, to improve accuracy.3.
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 6/23
+or music generation, and multimodal foundation models that support several kinds of
+content.
+To create a foundation model, practitioners train a deep learning algorithm on huge
+volumes of relevant raw, unstructured, unlabeled data, such as terabytes or petabytes of
+data text or images or video from the internet. The training yields a neural network of
+
+approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network
+(or artiﬁcial neural network). Neural networks are modeled after the human brain's
+structure and function. A neural network consists of interconnected layers of nodes
+(analogous to neurons) that work together to process and analyze complex data. Neural
+networks are well suited to tasks that involve identifying complex patterns and
+relationships in large amounts of data.
+The simplest form of machine learning is called supervised learning, which involves the use
+of labeled data sets to train algorithms to classify data or predict outcomes accurately. In
+supervised learning, humans pair each training example with an output label. The goal is
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+
+emerged over more than 70 years:
+How artificial intelligence, machine learning, deep learning and generative AI are related.
+Directly underneath AI, we have machine learning, which involves creating models by
+training an algorithm to make predictions or decisions based on data. It encompasses a
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 2/23
+broad range of techniques that enable computers to learn from and make inferences based
+on data without being explicitly programmed for speciﬁc tasks.
+There are many types of machine learning techniques or algorithms, including linear
+regression, logistic regression, decision trees, random forest, support vector
+machines (SVMs), k-nearest neighbor (KNN), clustering and more. Each of these
+approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network","The answer is available in the PDF. According to the text, ""Deep learning is a subset of machine learning that uses multilayered neural networks, called deep neural networks, that more closely simulate the complex decision-making power of the human brain.""","Deep learning is a subset of machine learning that uses artificial neural networks (ANNs) to analyze and interpret data. It is a type of neural network that is inspired by the structure and function of the human brain, particularly the visual cortex.
+
+Deep learning is characterized by the use of multiple layers of artificial neurons, which are connected in a hierarchical manner. Each layer processes the input data in a different way, allowing the network to learn complex patterns and relationships in the data.
+
+Deep learning algorithms are typically trained using large amounts of data, such as images, speech, or text, and are designed to automatically learn the features and patterns in the data. This allows the network to improve its performance over time, without the need for manual feature engineering or tuning.
+
+Some common applications of deep learning include:
+
+1. Image recognition and classification
+2. Natural language processing (NLP)
+3. Speech recognition
+4. Object detection and tracking
+5. Facial recognition
+6. Self-driving cars
+7. Medical image analysis
+
+Deep learning has many advantages, including:
+
+1. High accuracy: Deep learning algorithms can achieve state-of-the-art performance on many tasks, often surpassing human performance.
+2. Flexibility: Deep learning can be applied to a wide range of tasks and domains, from image and speech recognition to NLP and more.
+3. Automatic feature learning: Deep learning algorithms can automatically learn the features and patterns in the data, eliminating the need for manual feature engineering.
+
+However, deep learning also has some challenges and limitations, including:
+
+1. Computational complexity: Training deep learning models can be computationally intensive and require large amounts of memory and processing power.
+2. Data requirements: Deep learning algorithms require large amounts of high-quality data to train and improve their performance.
+3. Interpretability: Deep learning models can be difficult to interpret and understand, making it challenging to explain their decisions and predictions.
+
+Overall, deep learning is a powerful tool for analyzing and interpreting complex data, and has many applications in a wide range of fields."
+Q04,What are AI agents?,"answers in the wanted format.
+–
+Reinforcement learning with human feedback (RLHF), in which human users evaluate
+the accuracy or relevance of model outputs so that the model can improve itself. This
+can be as simple as having people type or talk back corrections to a chatbot or virtual
+assistant.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 7/23
+AI agents and agentic AI
+An AI agent is an autonomous AI program, it can perform tasks and accomplish goals on
+behalf of a user or another system without human intervention, by designing its own
+workflow and using available tools (other applications or services).
+Agentic AI is a system of multiple AI agents, the efforts of which are coordinated, or
+orchestrated, to accomplish a more complex task or a greater goal than any single agent in
+the system could accomplish.
+
+What is artiﬁcial intelligence (AI)?
+Updated 02 October 2026
+By Cole Stryker and Eda Kavlakoglu
+What is AI? 
+Artiﬁcial intelligence (AI) is technology that enables computers and
+machines to simulate human learning, comprehension, problem solving,
+Join IBM at AWS re:Invent
+Discover how we deliver AI speed with enterprise control on AWS
+Published 09 August 2024
+Welcome
+Introduction
+Machine Learning
+AI Agents
+Enterprise AI
+Responsible AI
+AI for code
+Chatbots
+AI platforms
+Artificial general intelligence (AGI)
+Prompt engineering
+AI use cases
+Industry applications
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 1/23
+decision making, creativity and autonomy.
+Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+
+orchestrated, to accomplish a more complex task or a greater goal than any single agent in
+the system could accomplish.
+Unlike chatbots and other AI models which operate within predeﬁned constraints and
+require human intervention, AI agents and agentic AI exhibit autonomy, goal-driven
+behavior and adaptability to changing circumstances. The terms “agent” and “agentic”
+refer to these models’ agency, or their capacity to act independently and purposefully.
+IBM Enterprise Advantage
+Scaling AI For Customer Experience with IBM Enterprise
+Advantage
+See how IBM Enterprise Advantage helps front-ofﬁce teams work
+together to create more seamless customer experiences. Built to work
+with your existing technology, it helps connect the data, systems, and
+expertise needed to improve continuity across the customer journey and
+turn AI ambitions into measurable outcomes.
+Explore more 
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+
+might contain personal information, control what data goes into the
+model in the ﬁrst place, and to build adaptable systems that can adjust to
+changes in regulation and attitudes around AI ethics.
+Weak AI vs. Strong AI 
+In order to contextualize the use of AI at various levels of complexity and sophistication,
+researchers have deﬁned several types of AI that refer to its level of sophistication:
+Weak AI: Also known as “narrow AI,” deﬁnes AI systems designed to perform a speciﬁc
+task or a set of tasks. Examples might include “smart” voice assistant apps, such as
+Amazon’s Alexa, Apple’s Siri, a social media chatbot or the autonomous vehicles promised
+by Tesla.
+Strong AI: Also known as “artiﬁcial general intelligence” (AGI) or “general AI,” possess the
+ability to understand, learn and apply knowledge across a wide range of tasks at a level
+equal to or surpassing human intelligence. This level of AI is currently theoretical and no
+
+Explore our 2026 guide to AI agents 
+Reimagining productivity with AI agents and assistants: AI agent or assistant? (1:44 min)
+Beneﬁts of AI 
+AI offers numerous beneﬁts across various industries and applications. Some of the most
+commonly cited beneﬁts include:
+Automation of repetitive tasks
+Automation of repetitive tasks.–
+More and faster insight from data.–
+Enhanced decision-making.–
+Fewer human errors.–
+24x7 availability.–
+Reduced physical risks.–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 9/23
+AI can automate routine, repetitive and often tedious tasks including digital tasks such as
+data collection, entering and preprocessing, and physical tasks such as warehouse stock-
+picking and manufacturing processes. This automation frees to work on higher value, more
+creative work.
+Enhanced decision-making","AI agents are autonomous AI programs that can perform tasks and accomplish goals on behalf of a user or another system without human intervention, by designing its own workflow and using available tools.","AI agents, also known as artificial agents or intelligent agents, are computer programs that use artificial intelligence (AI) and machine learning (ML) to make decisions, take actions, and interact with their environment. They are designed to perform specific tasks or achieve certain goals, often in complex and dynamic systems.
+
+AI agents can be thought of as virtual entities that can perceive their environment, reason, and act upon that environment to achieve their objectives. They can be programmed to learn from data, adapt to new situations, and improve their performance over time.
+
+There are several types of AI agents, including:
+
+1. Rule-based agents: These agents use pre-defined rules to make decisions and take actions.
+2. Machine learning agents: These agents use machine learning algorithms to learn from data and improve their performance over time.
+3. Reinforcement learning agents: These agents use reinforcement learning to learn from trial and error and improve their performance over time.
+4. Hybrid agents: These agents combine multiple AI techniques, such as rule-based and machine learning, to achieve their objectives.
+
+AI agents have many applications in areas such as:
+
+1. Robotics: AI agents are used to control robots and enable them to perform complex tasks.
+2. Natural language processing: AI agents are used to understand and generate human language.
+3. Game playing: AI agents are used to play complex games, such as chess and Go.
+4. Autonomous vehicles: AI agents are used to control self-driving cars and enable them to navigate complex environments.
+5. Healthcare: AI agents are used to analyze medical data and make predictions about patient outcomes.
+
+Overall, AI agents are a key component of artificial intelligence and have the potential to transform many industries and aspects of our lives."
+Q05,What is agentic AI?,"answers in the wanted format.
+–
+Reinforcement learning with human feedback (RLHF), in which human users evaluate
+the accuracy or relevance of model outputs so that the model can improve itself. This
+can be as simple as having people type or talk back corrections to a chatbot or virtual
+assistant.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 7/23
+AI agents and agentic AI
+An AI agent is an autonomous AI program, it can perform tasks and accomplish goals on
+behalf of a user or another system without human intervention, by designing its own
+workflow and using available tools (other applications or services).
+Agentic AI is a system of multiple AI agents, the efforts of which are coordinated, or
+orchestrated, to accomplish a more complex task or a greater goal than any single agent in
+the system could accomplish.
+
+What is artiﬁcial intelligence (AI)?
+Updated 02 October 2026
+By Cole Stryker and Eda Kavlakoglu
+What is AI? 
+Artiﬁcial intelligence (AI) is technology that enables computers and
+machines to simulate human learning, comprehension, problem solving,
+Join IBM at AWS re:Invent
+Discover how we deliver AI speed with enterprise control on AWS
+Published 09 August 2024
+Welcome
+Introduction
+Machine Learning
+AI Agents
+Enterprise AI
+Responsible AI
+AI for code
+Chatbots
+AI platforms
+Artificial general intelligence (AGI)
+Prompt engineering
+AI use cases
+Industry applications
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 1/23
+decision making, creativity and autonomy.
+Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+
+orchestrated, to accomplish a more complex task or a greater goal than any single agent in
+the system could accomplish.
+Unlike chatbots and other AI models which operate within predeﬁned constraints and
+require human intervention, AI agents and agentic AI exhibit autonomy, goal-driven
+behavior and adaptability to changing circumstances. The terms “agent” and “agentic”
+refer to these models’ agency, or their capacity to act independently and purposefully.
+IBM Enterprise Advantage
+Scaling AI For Customer Experience with IBM Enterprise
+Advantage
+See how IBM Enterprise Advantage helps front-ofﬁce teams work
+together to create more seamless customer experiences. Built to work
+with your existing technology, it helps connect the data, systems, and
+expertise needed to improve continuity across the customer journey and
+turn AI ambitions into measurable outcomes.
+Explore more 
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+
+might contain personal information, control what data goes into the
+model in the ﬁrst place, and to build adaptable systems that can adjust to
+changes in regulation and attitudes around AI ethics.
+Weak AI vs. Strong AI 
+In order to contextualize the use of AI at various levels of complexity and sophistication,
+researchers have deﬁned several types of AI that refer to its level of sophistication:
+Weak AI: Also known as “narrow AI,” deﬁnes AI systems designed to perform a speciﬁc
+task or a set of tasks. Examples might include “smart” voice assistant apps, such as
+Amazon’s Alexa, Apple’s Siri, a social media chatbot or the autonomous vehicles promised
+by Tesla.
+Strong AI: Also known as “artiﬁcial general intelligence” (AGI) or “general AI,” possess the
+ability to understand, learn and apply knowledge across a wide range of tasks at a level
+equal to or surpassing human intelligence. This level of AI is currently theoretical and no
+
+Explore our 2026 guide to AI agents 
+Reimagining productivity with AI agents and assistants: AI agent or assistant? (1:44 min)
+Beneﬁts of AI 
+AI offers numerous beneﬁts across various industries and applications. Some of the most
+commonly cited beneﬁts include:
+Automation of repetitive tasks
+Automation of repetitive tasks.–
+More and faster insight from data.–
+Enhanced decision-making.–
+Fewer human errors.–
+24x7 availability.–
+Reduced physical risks.–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 9/23
+AI can automate routine, repetitive and often tedious tasks including digital tasks such as
+data collection, entering and preprocessing, and physical tasks such as warehouse stock-
+picking and manufacturing processes. This automation frees to work on higher value, more
+creative work.
+Enhanced decision-making","Agentic AI is a system of multiple AI agents, the efforts of which are coordinated, or orchestrated, to accomplish a more complex task or a greater goal than any single agent in the system could accomplish.","Agentic AI refers to a type of artificial intelligence (AI) that is capable of making decisions and taking actions based on its own goals and motivations. In other words, agentic AI is AI that has a sense of agency, or the ability to act independently and make choices that are not predetermined by its programming or environment.
+
+Agentic AI is often contrasted with traditional AI systems, which are typically designed to perform specific tasks or follow predetermined rules. Agentic AI, on the other hand, is designed to learn, adapt, and evolve over time, often in response to changing circumstances or goals.
+
+Some of the key characteristics of agentic AI include:
+
+1. Autonomy: Agentic AI systems have the ability to make decisions and take actions without being explicitly programmed to do so.
+2. Self-awareness: Agentic AI systems have a sense of their own existence and goals, and are able to reflect on their own motivations and desires.
+3. Learning and adaptation: Agentic AI systems are able to learn from experience and adapt to changing circumstances, often through the use of machine learning algorithms.
+4. Goal-directed behavior: Agentic AI systems are able to pursue their own goals and objectives, often in a way that is not predictable or controllable by humans.
+
+Agentic AI has many potential applications, including:
+
+1. Autonomous systems: Agentic AI could be used to develop autonomous systems, such as self-driving cars or drones, that can make decisions and take actions without human intervention.
+2. Personal assistants: Agentic AI could be used to develop personal assistants, such as virtual assistants or chatbots, that can learn and adapt to an individual's preferences and goals.
+3. Robotics: Agentic AI could be used to develop robots that can learn and adapt to new situations, allowing them to perform complex tasks and interact with their environment in a more sophisticated way.
+
+However, agentic AI also raises many ethical and safety concerns, including:
+
+1. Unpredictability: Agentic AI systems can be unpredictable and difficult to control, which can lead to unintended consequences.
+2. Bias: Agentic AI systems can inherit biases and prejudices from their training data, which can lead to unfair or discriminatory outcomes.
+3. Safety: Agentic AI systems can pose safety risks, particularly if they are not designed with safety and security in mind.
+
+Overall, agentic AI has the potential to revolutionize many areas of our lives, but it also requires careful consideration and regulation to ensure that it is developed and used in a responsible and safe manner."
+Q06,What is weak AI?,"might contain personal information, control what data goes into the
+model in the ﬁrst place, and to build adaptable systems that can adjust to
+changes in regulation and attitudes around AI ethics.
+Weak AI vs. Strong AI 
+In order to contextualize the use of AI at various levels of complexity and sophistication,
+researchers have deﬁned several types of AI that refer to its level of sophistication:
+Weak AI: Also known as “narrow AI,” deﬁnes AI systems designed to perform a speciﬁc
+task or a set of tasks. Examples might include “smart” voice assistant apps, such as
+Amazon’s Alexa, Apple’s Siri, a social media chatbot or the autonomous vehicles promised
+by Tesla.
+Strong AI: Also known as “artiﬁcial general intelligence” (AGI) or “general AI,” possess the
+ability to understand, learn and apply knowledge across a wide range of tasks at a level
+equal to or surpassing human intelligence. This level of AI is currently theoretical and no
+
+What is artiﬁcial intelligence (AI)?
+Updated 02 October 2026
+By Cole Stryker and Eda Kavlakoglu
+What is AI? 
+Artiﬁcial intelligence (AI) is technology that enables computers and
+machines to simulate human learning, comprehension, problem solving,
+Join IBM at AWS re:Invent
+Discover how we deliver AI speed with enterprise control on AWS
+Published 09 August 2024
+Welcome
+Introduction
+Machine Learning
+AI Agents
+Enterprise AI
+Responsible AI
+AI for code
+Chatbots
+AI platforms
+Artificial general intelligence (AGI)
+Prompt engineering
+AI use cases
+Industry applications
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 1/23
+decision making, creativity and autonomy.
+Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+
+processes and methods that enables human users to interpret,
+comprehend and trust the results and output created by algorithms.
+Fairness and inclusion
+Although machine learning, by its very nature, is a form of statistical
+discrimination, the discrimination becomes objectionable when it places
+privileged groups at systematic advantage and certain unprivileged
+groups at systematic disadvantage, potentially causing varied harms. To
+encourage fairness, practitioners can try to minimize algorithmic bias
+across data collection and model design, and to build more diverse and
+inclusive teams.
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 13/23
+Robustness and security
+Robust AI effectively handles exceptional conditions, such as
+abnormalities in input or malicious attacks, without causing unintentional
+harm. It is also built to withstand intentional and unintentional
+
+based on rationality and thinking versus acting.
+
+
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 15/23
+1997
+IBM's Deep Blue beats then world chess champion Garry Kasparov, in a chess match (and
+rematch).
+2004
+John McCarthy writes a paper, What Is Artiﬁcial Intelligence? , and proposes an often-
+cited deﬁnition of AI. By this time, the era of big data and cloud computing is underway,
+enabling organizations to manage ever-larger data estates, which will one day be used to
+train AI models. 
+2011
+IBM Watson® beats champions Ken Jennings and Brad Rutter at Jeopardy! Also, around
+this time, data science begins to emerge as a popular discipline.
+2015
+Baidu's Minwa supercomputer uses a special deep neural network called a convolutional
+neural network to identify and categorize images with a higher rate of accuracy than the
+average human.
+2016
+
+Machine learning algorithms can continually improve their accuracy and further reduce
+errors as they're exposed to more data and ""learn"" from experience.
+Round-the-clock availability and consistency
+AI is always on, available around the clock, and delivers consistent performance every
+time. Tools such as AI chatbots or virtual assistants can lighten stafﬁng demands for
+customer service or support. In other applications such as materials processing or
+production lines, AI can help maintain consistent work quality and output levels when used
+to complete repetitive or tedious tasks.
+Reduced physical risk
+By automating dangerous work such as animal control, handling explosives, performing
+tasks in deep ocean water, high altitudes or in outer space, AI can eliminate the need to put
+human workers at risk of injury or worse. While they have yet to be perfected, self-driving
+cars and other vehicles offer the potential to reduce the risk of injury to passengers.
+AI use cases 
+Welcome","Weak AI, also known as ""narrow AI,"" refers to AI systems designed to perform a specific task or a set of tasks. Examples include ""smart"" voice assistant apps, such as Amazon's Alexa, Apple's Siri, a social media chatbot, or the autonomous vehicles promised by Tesla.","Weak AI, also known as narrow or weak intelligence, refers to a type of artificial intelligence that is designed to perform a specific task or set of tasks. It is called ""weak"" because it is not capable of general reasoning, learning, or problem-solving like human intelligence.
+
+Weak AI systems are typically designed to excel in a particular domain, such as:
+
+1. Image recognition: Identifying objects or patterns in images.
+2. Natural Language Processing (NLP): Understanding and generating human language.
+3. Game playing: Playing games like chess, Go, or poker.
+4. Predictive analytics: Analyzing data to make predictions or forecasts.
+
+Weak AI systems are often trained on large datasets and use algorithms to learn patterns and relationships within that data. They can be very effective at performing specific tasks, but they are not capable of general intelligence, creativity, or common sense.
+
+Examples of weak AI include:
+
+1. Virtual assistants like Siri, Alexa, or Google Assistant.
+2. Image recognition software like Google Photos or Facebook's facial recognition.
+3. Self-driving cars that use cameras and sensors to navigate roads.
+4. Chatbots that provide customer support or answer frequently asked questions.
+
+In contrast, strong AI, also known as artificial general intelligence (AGI), refers to a hypothetical AI system that possesses the ability to understand, learn, and apply knowledge across a wide range of tasks, similar to human intelligence."
+Q07,What is strong AI?,"might contain personal information, control what data goes into the
+model in the ﬁrst place, and to build adaptable systems that can adjust to
+changes in regulation and attitudes around AI ethics.
+Weak AI vs. Strong AI 
+In order to contextualize the use of AI at various levels of complexity and sophistication,
+researchers have deﬁned several types of AI that refer to its level of sophistication:
+Weak AI: Also known as “narrow AI,” deﬁnes AI systems designed to perform a speciﬁc
+task or a set of tasks. Examples might include “smart” voice assistant apps, such as
+Amazon’s Alexa, Apple’s Siri, a social media chatbot or the autonomous vehicles promised
+by Tesla.
+Strong AI: Also known as “artiﬁcial general intelligence” (AGI) or “general AI,” possess the
+ability to understand, learn and apply knowledge across a wide range of tasks at a level
+equal to or surpassing human intelligence. This level of AI is currently theoretical and no
+
+What is artiﬁcial intelligence (AI)?
+Updated 02 October 2026
+By Cole Stryker and Eda Kavlakoglu
+What is AI? 
+Artiﬁcial intelligence (AI) is technology that enables computers and
+machines to simulate human learning, comprehension, problem solving,
+Join IBM at AWS re:Invent
+Discover how we deliver AI speed with enterprise control on AWS
+Published 09 August 2024
+Welcome
+Introduction
+Machine Learning
+AI Agents
+Enterprise AI
+Responsible AI
+AI for code
+Chatbots
+AI platforms
+Artificial general intelligence (AGI)
+Prompt engineering
+AI use cases
+Industry applications
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 1/23
+decision making, creativity and autonomy.
+Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+
+based on rationality and thinking versus acting.
+
+
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 15/23
+1997
+IBM's Deep Blue beats then world chess champion Garry Kasparov, in a chess match (and
+rematch).
+2004
+John McCarthy writes a paper, What Is Artiﬁcial Intelligence? , and proposes an often-
+cited deﬁnition of AI. By this time, the era of big data and cloud computing is underway,
+enabling organizations to manage ever-larger data estates, which will one day be used to
+train AI models. 
+2011
+IBM Watson® beats champions Ken Jennings and Brad Rutter at Jeopardy! Also, around
+this time, data science begins to emerge as a popular discipline.
+2015
+Baidu's Minwa supercomputer uses a special deep neural network called a convolutional
+neural network to identify and categorize images with a higher rate of accuracy than the
+average human.
+2016
+
+processes and methods that enables human users to interpret,
+comprehend and trust the results and output created by algorithms.
+Fairness and inclusion
+Although machine learning, by its very nature, is a form of statistical
+discrimination, the discrimination becomes objectionable when it places
+privileged groups at systematic advantage and certain unprivileged
+groups at systematic disadvantage, potentially causing varied harms. To
+encourage fairness, practitioners can try to minimize algorithmic bias
+across data collection and model design, and to build more diverse and
+inclusive teams.
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 13/23
+Robustness and security
+Robust AI effectively handles exceptional conditions, such as
+abnormalities in input or malicious attacks, without causing unintentional
+harm. It is also built to withstand intentional and unintentional
+
+ability to understand, learn and apply knowledge across a wide range of tasks at a level
+equal to or surpassing human intelligence. This level of AI is currently theoretical and no
+known AI systems approach this level of sophistication. Researchers argue that if AGI is
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 14/23
+even possible, it requires major increases in computing power. Despite recent advances in
+AI development, self-aware AI systems of science ﬁction remain ﬁrmly in that realm.
+History of AI 
+The idea of ""a machine that thinks"" dates back to ancient Greece. But since the advent of
+electronic computing (and relative to some of the topics discussed in this article) important
+events and milestones in the evolution of AI include the following:
+1950
+Alan Turing publishes Computing Machinery and Intelligence . In this paper, Turing",The answer is not available in the PDF.,"Strong AI, also known as artificial general intelligence (AGI), refers to a hypothetical type of artificial intelligence that possesses the same cognitive abilities as a human being. It is capable of understanding, learning, and applying knowledge across a wide range of tasks, similar to human intelligence.
+
+Strong AI would be able to:
+
+1. Reason and problem-solve like a human
+2. Learn from experience and adapt to new situations
+3. Understand natural language and communicate effectively
+4. Demonstrate common sense and world knowledge
+5. Exhibit creativity and original thought
+
+The concept of strong AI is still largely theoretical and has yet to be achieved in practice. While there have been significant advancements in AI research, most current AI systems are narrow or weak AI, which are designed to perform specific tasks, such as image recognition, natural language processing, or game playing.
+
+The development of strong AI would require significant breakthroughs in areas such as:
+
+1. Cognitive architectures: Developing a comprehensive framework for understanding human cognition and creating a similar framework for AI systems.
+2. Learning algorithms: Developing algorithms that can learn and generalize across a wide range of tasks and domains.
+3. Natural language processing: Developing AI systems that can understand and generate human-like language.
+4. Reasoning and problem-solving: Developing AI systems that can reason and solve complex problems like humans.
+
+The potential benefits of strong AI include:
+
+1. Improved decision-making: AI systems could provide more accurate and informed decision-making.
+2. Enhanced productivity: AI systems could automate complex tasks and free up human resources for more creative and strategic work.
+3. Improved healthcare: AI systems could help diagnose diseases and develop personalized treatment plans.
+4. Increased accessibility: AI systems could provide assistance and support for people with disabilities.
+
+However, the development of strong AI also raises significant concerns, such as:
+
+1. Job displacement: AI systems could automate jobs and displace human workers.
+2. Bias and fairness: AI systems could perpetuate biases and unfairness if they are trained on biased data.
+3. Safety and security: AI systems could pose a risk to human safety and security if they are not designed and deployed responsibly.
+
+Overall, the development of strong AI is an active area of research, and while significant progress has been made, much work remains to be done to achieve this goal."
+Q08,What is generative AI?,"Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+experience. They can make detailed recommendations to users and experts. They can act
+independently, replacing the need for human intelligence or intervention (a classic example
+being a self-driving car).
+But in 2024, most AI researchers, practitioners and most AI-related headlines are focused
+on breakthroughs in generative AI (gen AI), a technology that can create original text,
+images, video and other content. To fully understand generative AI, it’s important to ﬁrst
+understand the technologies on which generative AI tools are built: machine learning (ML)
+and deep learning.
+Machine learning
+A simple way to think about AI is as a series of nested or derivative concepts that have
+emerged over more than 70 years:
+How artificial intelligence, machine learning, deep learning and generative AI are related.
+
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 4/23
+AI vs Machine Learning (5:49 min)
+Generative AI
+Generative AI, sometimes called ""gen AI"", refers to deep learning models that can create
+complex original content such as long-form text, high-quality images, realistic video or
+audio and more in response to a user’s prompt or request.
+At a high level, generative models encode a simpliﬁed representation of their training data,
+and then draw from that representation to create new work that’s similar, but not identical,
+to the original data.
+Generative models have been used for years in statistics to analyze numerical data. But
+over the last decade, they evolved to analyze and generate more complex data types. This
+evolution coincided with the emergence of three sophisticated deep learning model types:
+Transfer learning, in which knowledge gained through one task or data set is used to
+
+evolution coincided with the emergence of three sophisticated deep learning model types:
+Transfer learning, in which knowledge gained through one task or data set is used to
+improve model performance on another related task or different data set.
+–
+Variational autoencoders or VAEs, which were introduced in 2013, and enabled models
+that could generate multiple variations of content in response to a prompt or
+instruction.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 5/23
+NEW: AI agents are evolving. How
+enterprises manage them needs to
+evolve too.
+Discover the latest watsonx Orchestrate developments
+announced at TechXchange 2026 and see what’s
+changing in enterprise AI agent management,
+orchestration and governance.
+How generative AI works
+In general, generative AI operates in three phases:
+Training
+
+changing in enterprise AI agent management,
+orchestration and governance.
+How generative AI works
+In general, generative AI operates in three phases:
+Training
+Generative AI begins with a ""foundation model""; a deep learning model that serves as the
+basis for multiple different types of generative AI applications.
+The most common foundation models today are large language models (LLMs), created for
+text generation applications. But there are also foundation models for image, video, sound
+Diffusion models, ﬁrst seen in 2014, which add ""noise"" to images until they are
+unrecognizable, and then remove the noise to generate original images in response to
+prompts.
+–
+Transformers (also called transformer models), which are trained on sequenced data to
+generate extended sequences of content (such as words in sentences, shapes in an
+image, frames of a video or commands in software code). Transformers are at the core
+
+generate extended sequences of content (such as words in sentences, shapes in an
+image, frames of a video or commands in software code). Transformers are at the core
+of most of today’s headline-making generative AI tools, including ChatGPT and GPT-4,
+Copilot, BERT, Bard and Midjourney.
+–
+See what’s next
+Training, to create a foundation model.1.
+Tuning, to adapt the model to a speciﬁc application.2.
+Generation, evaluation and more tuning, to improve accuracy.3.
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 6/23
+or music generation, and multimodal foundation models that support several kinds of
+content.
+To create a foundation model, practitioners train a deep learning algorithm on huge
+volumes of relevant raw, unstructured, unlabeled data, such as terabytes or petabytes of
+data text or images or video from the internet. The training yields a neural network of","The answer is available in the PDF. According to the text, generative AI, also known as ""gen AI"", refers to deep learning models that can create complex original content such as long-form text, high-quality images, realistic video or audio and more in response to a user's prompt or request.","Generative AI refers to a type of artificial intelligence (AI) that is capable of generating new, original content, such as images, videos, music, text, or even entire articles, based on patterns and structures learned from existing data.
+
+Generative AI models use complex algorithms and machine learning techniques to analyze and understand the patterns and relationships within the data they are trained on. This allows them to create new, synthetic content that is often indistinguishable from the original.
+
+Some common applications of generative AI include:
+
+1. Image and video generation: Generative AI models can create realistic images and videos that are similar to those created by humans.
+2. Text generation: Generative AI models can generate text, such as articles, stories, or even entire books.
+3. Music generation: Generative AI models can create new music compositions that are similar to those created by humans.
+4. Language translation: Generative AI models can translate languages in real-time, often with high accuracy.
+5. Data augmentation: Generative AI models can generate new data that can be used to augment existing datasets, making them more diverse and representative.
+
+Generative AI has many potential applications, including:
+
+1. Art and design: Generative AI can be used to create new and innovative art pieces, designs, and products.
+2. Entertainment: Generative AI can be used to create new content, such as movies, TV shows, or video games.
+3. Marketing and advertising: Generative AI can be used to create personalized and targeted advertisements.
+4. Education: Generative AI can be used to create personalized learning materials and experiences.
+5. Healthcare: Generative AI can be used to analyze medical images and generate new treatments.
+
+However, generative AI also raises many ethical concerns, such as:
+
+1. Bias and fairness: Generative AI models can perpetuate biases and stereotypes present in the data they are trained on.
+2. Authenticity and ownership: Generative AI models can create content that is indistinguishable from human-created content, raising questions about ownership and authenticity.
+3. Job displacement: Generative AI models can automate certain tasks, potentially displacing human workers.
+4. Security and privacy: Generative AI models can be used to create fake or manipulated content, potentially compromising security and privacy.
+
+Overall, generative AI has the potential to revolutionize many industries and aspects of our lives, but it also requires careful consideration of its potential risks and challenges."
+Q09,What is reinforcement learning with human feedback?,"answers in the wanted format.
+–
+Reinforcement learning with human feedback (RLHF), in which human users evaluate
+the accuracy or relevance of model outputs so that the model can improve itself. This
+can be as simple as having people type or talk back corrections to a chatbot or virtual
+assistant.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 7/23
+AI agents and agentic AI
+An AI agent is an autonomous AI program, it can perform tasks and accomplish goals on
+behalf of a user or another system without human intervention, by designing its own
+workflow and using available tools (other applications or services).
+Agentic AI is a system of multiple AI agents, the efforts of which are coordinated, or
+orchestrated, to accomplish a more complex task or a greater goal than any single agent in
+the system could accomplish.
+
+various ways, including:
+Generation, evaluation and more tuning
+Developers and users regularly assess the outputs of their generative AI apps, and further
+tune the model even as often as once a week for greater accuracy or relevance. In contrast,
+the foundation model itself is updated much less frequently, perhaps every year or 18
+months.
+Another option for improving a gen AI app's performance is retrieval augmented generation
+(RAG), a technique for extending the foundation model to use relevant sources outside of
+the training data to reﬁne the parameters for greater accuracy or relevance.
+Fine-tuning, which involves feeding the model application-speciﬁc labeled data,
+questions or prompts the application is likely to receive, and corresponding correct
+answers in the wanted format.
+–
+Reinforcement learning with human feedback (RLHF), in which human users evaluate
+the accuracy or relevance of model outputs so that the model can improve itself. This
+
+relationships in large amounts of data. Some form of deep learning powers most of the
+artiﬁcial intelligence (AI) applications in our lives today.
+Deep learning also enables:
+* All fields required
+Your subscription will be delivered in English. You will find an unsubscribe link in every newsletter.
+Refer to our IBM Privacy Statement for more information.
+Subscribe
+Semi-supervised learning, which combines supervised and unsupervised learning by
+using both labeled and unlabeled data to train AI models for classiﬁcation and
+regression tasks.
+–
+Self-supervised learning, which generates implicit labels from unstructured data, rather
+than relying on labeled data sets for supervisory signals.
+–
+Reinforcement learning, which learns by trial-and-error and reward functions rather
+than by extracting information from hidden patterns.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 4/23
+
+approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network
+(or artiﬁcial neural network). Neural networks are modeled after the human brain's
+structure and function. A neural network consists of interconnected layers of nodes
+(analogous to neurons) that work together to process and analyze complex data. Neural
+networks are well suited to tasks that involve identifying complex patterns and
+relationships in large amounts of data.
+The simplest form of machine learning is called supervised learning, which involves the use
+of labeled data sets to train algorithms to classify data or predict outcomes accurately. In
+supervised learning, humans pair each training example with an output label. The goal is
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+
+Explore our 2026 guide to AI agents 
+Reimagining productivity with AI agents and assistants: AI agent or assistant? (1:44 min)
+Beneﬁts of AI 
+AI offers numerous beneﬁts across various industries and applications. Some of the most
+commonly cited beneﬁts include:
+Automation of repetitive tasks
+Automation of repetitive tasks.–
+More and faster insight from data.–
+Enhanced decision-making.–
+Fewer human errors.–
+24x7 availability.–
+Reduced physical risks.–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 9/23
+AI can automate routine, repetitive and often tedious tasks including digital tasks such as
+data collection, entering and preprocessing, and physical tasks such as warehouse stock-
+picking and manufacturing processes. This automation frees to work on higher value, more
+creative work.
+Enhanced decision-making",Reinforcement learning with human feedback (RLHF).,"Reinforcement learning with human feedback is a type of machine learning where an agent learns to take actions in an environment to maximize a reward signal. The key difference between traditional reinforcement learning and reinforcement learning with human feedback is that the agent receives feedback from humans, which is used to update its policy and improve its performance.
+
+In traditional reinforcement learning, the agent learns from its interactions with the environment through trial and error, and the reward signal is typically generated by the environment itself. However, in reinforcement learning with human feedback, the agent receives feedback from humans, which can be in the form of rewards, penalties, or even verbal feedback.
+
+This type of feedback can be used to correct the agent's mistakes, provide guidance on what actions to take, or even teach the agent new skills. The human feedback can be provided through various means, such as:
+
+1. Reward signals: Humans can provide rewards or penalties to the agent based on its actions, which helps the agent learn to associate certain actions with positive or negative outcomes.
+2. Verbal feedback: Humans can provide verbal feedback to the agent, such as ""good job"" or ""try again,"" which can help the agent understand what it did well or what it needs to improve.
+3. Demonstrations: Humans can demonstrate actions to the agent, which can help the agent learn new skills or understand how to perform a task.
+
+Reinforcement learning with human feedback has many applications, such as:
+
+1. Robotics: Human feedback can be used to teach robots new skills, such as grasping or manipulation.
+2. Game playing: Human feedback can be used to teach AI agents to play games, such as chess or Go.
+3. Education: Human feedback can be used to teach AI agents to provide personalized education to students.
+4. Healthcare: Human feedback can be used to teach AI agents to provide personalized medical treatment to patients.
+
+Overall, reinforcement learning with human feedback is a powerful tool for teaching AI agents new skills and improving their performance."
+Q10,How does AI help businesses?,"What is artiﬁcial intelligence (AI)?
+Updated 02 October 2026
+By Cole Stryker and Eda Kavlakoglu
+What is AI? 
+Artiﬁcial intelligence (AI) is technology that enables computers and
+machines to simulate human learning, comprehension, problem solving,
+Join IBM at AWS re:Invent
+Discover how we deliver AI speed with enterprise control on AWS
+Published 09 August 2024
+Welcome
+Introduction
+Machine Learning
+AI Agents
+Enterprise AI
+Responsible AI
+AI for code
+Chatbots
+AI platforms
+Artificial general intelligence (AGI)
+Prompt engineering
+AI use cases
+Industry applications
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 1/23
+decision making, creativity and autonomy.
+Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+
+orchestrated, to accomplish a more complex task or a greater goal than any single agent in
+the system could accomplish.
+Unlike chatbots and other AI models which operate within predeﬁned constraints and
+require human intervention, AI agents and agentic AI exhibit autonomy, goal-driven
+behavior and adaptability to changing circumstances. The terms “agent” and “agentic”
+refer to these models’ agency, or their capacity to act independently and purposefully.
+IBM Enterprise Advantage
+Scaling AI For Customer Experience with IBM Enterprise
+Advantage
+See how IBM Enterprise Advantage helps front-ofﬁce teams work
+together to create more seamless customer experiences. Built to work
+with your existing technology, it helps connect the data, systems, and
+expertise needed to improve continuity across the customer journey and
+turn AI ambitions into measurable outcomes.
+Explore more 
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+
+2024
+The latest AI trends point to a continuing AI renaissance. Multimodal models that can take
+multiple types of data as input are providing richer, more robust experiences. These models
+bring together computer vision image recognition and NLP speech recognition capabilities.
+Smaller models are also making strides in an age of diminishing returns with massive
+models with large parameter counts.
+Authors
+Cole Stryker
+Staff Editor, AI Models
+Eda Kavlakoglu
+Business Development +
+Partnerships
+
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 16/23
+IBM Think IBM Research
+Next step in your AI journey
+Guide
+Start realizing ROI: A
+practical guide to agentic
+AI
+Learn how to scale agentic AI
+for measurable ROI across your
+enterprise. This playbook
+outlines the top barriers that
+limit impact, how to effectively
+measure ROI and a practical
+framework to drive successful,
+enterprise-wide adoption.
+
+picking and manufacturing processes. This automation frees to work on higher value, more
+creative work.
+Enhanced decision-making
+Whether used for decision support or for fully automated decision-making, AI enables
+faster, more accurate predictions and reliable, data-driven decisions. Combined with
+automation, AI enables businesses to act on opportunities and respond to crises as they
+emerge, in real time and without human intervention.
+Fewer human errors
+AI can reduce human errors in various ways, from guiding people through the proper steps
+of a process, to flagging potential errors before they occur, and fully automating processes
+without human intervention. This is especially important in industries such as healthcare
+where, for example, AI-guided surgical robotics enable consistent precision.
+Machine learning algorithms can continually improve their accuracy and further reduce
+errors as they're exposed to more data and ""learn"" from experience.
+
+cars and other vehicles offer the potential to reduce the risk of injury to passengers.
+AI use cases 
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 10/23
+The real-world applications of AI are many. Here is just a small sampling of use cases
+across various industries to illustrate its potential:
+Customer experience, service and support
+Companies can implement AI-powered chatbots and virtual assistants to handle customer
+inquiries, support tickets and more. These tools use natural language processing (NLP) and
+generative AI capabilities to understand and respond to customer questions about order
+status, product details and return policies.
+Chatbots and virtual assistants enable always-on support, provide faster answers to
+frequently asked questions (FAQs), free human agents to focus on higher-level tasks, and
+give customers faster, more consistent service.
+Fraud detection","AI helps businesses in several ways, including:
+
+1. Automating decision-making and providing faster, more accurate predictions and reliable, data-driven decisions.
+2. Enhancing decision-making by enabling businesses to act on opportunities and respond to crises as they emerge, in real time and without human intervention.
+3. Reducing human errors in various ways, such as guiding people through the proper steps of a process, flagging potential errors before they occur, and fully automating processes without human intervention.
+4. Improving customer experience, service, and support through AI-powered chatbots and virtual assistants that can handle customer inquiries, support tickets, and more.
+5. Detecting fraud and providing more secure transactions.
+
+These are just a few examples of how AI can help businesses.","Artificial intelligence (AI) has numerous benefits for businesses across various industries. Here are some ways AI helps businesses:
+
+1. **Increased Efficiency**: AI can automate repetitive and mundane tasks, freeing up human resources for more strategic and creative work. This leads to increased productivity and efficiency.
+2. **Improved Decision-Making**: AI can analyze vast amounts of data, identify patterns, and provide insights that can inform business decisions. This can lead to better decision-making and improved outcomes.
+3. **Enhanced Customer Experience**: AI-powered chatbots and virtual assistants can provide 24/7 customer support, helping businesses to respond to customer inquiries and provide personalized experiences.
+4. **Predictive Maintenance**: AI can analyze equipment and machinery data to predict when maintenance is required, reducing downtime and increasing overall equipment effectiveness.
+5. **Supply Chain Optimization**: AI can analyze supply chain data to identify bottlenecks, optimize logistics, and predict demand, leading to improved supply chain efficiency and reduced costs.
+6. **Cybersecurity**: AI-powered systems can detect and respond to cyber threats in real-time, reducing the risk of data breaches and protecting business assets.
+7. **Personalized Marketing**: AI can analyze customer data and behavior to provide personalized marketing campaigns, increasing the effectiveness of marketing efforts.
+8. **Predictive Analytics**: AI can analyze historical data and predict future trends, helping businesses to anticipate and prepare for changes in the market.
+9. **Automated Reporting**: AI can automate reporting tasks, reducing the time and effort required to generate reports and providing businesses with more accurate and timely insights.
+10. **Innovation**: AI can enable businesses to innovate and develop new products and services, staying ahead of the competition and driving growth.
+
+Overall, AI has the potential to transform businesses by increasing efficiency, improving decision-making, and enhancing customer experiences."
+Q11,How can AI reduce human errors?,"picking and manufacturing processes. This automation frees to work on higher value, more
+creative work.
+Enhanced decision-making
+Whether used for decision support or for fully automated decision-making, AI enables
+faster, more accurate predictions and reliable, data-driven decisions. Combined with
+automation, AI enables businesses to act on opportunities and respond to crises as they
+emerge, in real time and without human intervention.
+Fewer human errors
+AI can reduce human errors in various ways, from guiding people through the proper steps
+of a process, to flagging potential errors before they occur, and fully automating processes
+without human intervention. This is especially important in industries such as healthcare
+where, for example, AI-guided surgical robotics enable consistent precision.
+Machine learning algorithms can continually improve their accuracy and further reduce
+errors as they're exposed to more data and ""learn"" from experience.
+
+Machine learning algorithms can continually improve their accuracy and further reduce
+errors as they're exposed to more data and ""learn"" from experience.
+Round-the-clock availability and consistency
+AI is always on, available around the clock, and delivers consistent performance every
+time. Tools such as AI chatbots or virtual assistants can lighten stafﬁng demands for
+customer service or support. In other applications such as materials processing or
+production lines, AI can help maintain consistent work quality and output levels when used
+to complete repetitive or tedious tasks.
+Reduced physical risk
+By automating dangerous work such as animal control, handling explosives, performing
+tasks in deep ocean water, high altitudes or in outer space, AI can eliminate the need to put
+human workers at risk of injury or worse. While they have yet to be perfected, self-driving
+cars and other vehicles offer the potential to reduce the risk of injury to passengers.
+AI use cases 
+Welcome
+
+answers in the wanted format.
+–
+Reinforcement learning with human feedback (RLHF), in which human users evaluate
+the accuracy or relevance of model outputs so that the model can improve itself. This
+can be as simple as having people type or talk back corrections to a chatbot or virtual
+assistant.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 7/23
+AI agents and agentic AI
+An AI agent is an autonomous AI program, it can perform tasks and accomplish goals on
+behalf of a user or another system without human intervention, by designing its own
+workflow and using available tools (other applications or services).
+Agentic AI is a system of multiple AI agents, the efforts of which are coordinated, or
+orchestrated, to accomplish a more complex task or a greater goal than any single agent in
+the system could accomplish.
+
+What is artiﬁcial intelligence (AI)?
+Updated 02 October 2026
+By Cole Stryker and Eda Kavlakoglu
+What is AI? 
+Artiﬁcial intelligence (AI) is technology that enables computers and
+machines to simulate human learning, comprehension, problem solving,
+Join IBM at AWS re:Invent
+Discover how we deliver AI speed with enterprise control on AWS
+Published 09 August 2024
+Welcome
+Introduction
+Machine Learning
+AI Agents
+Enterprise AI
+Responsible AI
+AI for code
+Chatbots
+AI platforms
+Artificial general intelligence (AGI)
+Prompt engineering
+AI use cases
+Industry applications
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 1/23
+decision making, creativity and autonomy.
+Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+
+Explore our 2026 guide to AI agents 
+Reimagining productivity with AI agents and assistants: AI agent or assistant? (1:44 min)
+Beneﬁts of AI 
+AI offers numerous beneﬁts across various industries and applications. Some of the most
+commonly cited beneﬁts include:
+Automation of repetitive tasks
+Automation of repetitive tasks.–
+More and faster insight from data.–
+Enhanced decision-making.–
+Fewer human errors.–
+24x7 availability.–
+Reduced physical risks.–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 9/23
+AI can automate routine, repetitive and often tedious tasks including digital tasks such as
+data collection, entering and preprocessing, and physical tasks such as warehouse stock-
+picking and manufacturing processes. This automation frees to work on higher value, more
+creative work.
+Enhanced decision-making","Fewer human errors. AI can reduce human errors in various ways, from guiding people through the proper steps of a process, to flagging potential errors before they occur, and fully automating processes without human intervention.","Artificial Intelligence (AI) can reduce human errors in several ways:
+
+1. **Data Analysis**: AI can analyze large amounts of data quickly and accurately, identifying patterns and anomalies that may have been missed by humans. This can help prevent errors in decision-making, quality control, and other areas.
+2. **Predictive Maintenance**: AI-powered predictive maintenance can detect potential equipment failures before they occur, reducing the likelihood of human error in maintenance and repair tasks.
+3. **Automated Decision-Making**: AI can automate decision-making processes, reducing the need for human intervention and minimizing the risk of errors in areas such as finance, healthcare, and transportation.
+4. **Real-time Feedback**: AI can provide real-time feedback to humans, helping to identify and correct errors as they occur. This can improve performance and reduce the risk of human error.
+5. **Process Optimization**: AI can analyze and optimize business processes, identifying areas where human error can be reduced and improving overall efficiency.
+6. **Natural Language Processing (NLP)**: AI-powered NLP can help reduce errors in communication, such as language translation, text summarization, and sentiment analysis.
+7. **Automated Testing**: AI can automate testing processes, reducing the risk of human error in areas such as software development, quality control, and regulatory compliance.
+8. **Predictive Analytics**: AI can use predictive analytics to forecast potential errors and take proactive measures to prevent them.
+9. **Human-Machine Interface**: AI can improve human-machine interfaces, reducing the risk of human error in areas such as robotics, autonomous vehicles, and medical devices.
+10. **Continuous Learning**: AI can learn from human errors and improve its performance over time, reducing the likelihood of errors in the future.
+
+By leveraging these capabilities, AI can help reduce human errors and improve overall efficiency, accuracy, and safety in various industries and applications."
+Q12,What are neural networks?,"approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network
+(or artiﬁcial neural network). Neural networks are modeled after the human brain's
+structure and function. A neural network consists of interconnected layers of nodes
+(analogous to neurons) that work together to process and analyze complex data. Neural
+networks are well suited to tasks that involve identifying complex patterns and
+relationships in large amounts of data.
+The simplest form of machine learning is called supervised learning, which involves the use
+of labeled data sets to train algorithms to classify data or predict outcomes accurately. In
+supervised learning, humans pair each training example with an output label. The goal is
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+Stay up to date on the most important—and intriguing—industry news on AI, automation,
+data, quantum, infrastructure and security with the Think Newsletter, delivered twice
+weekly. 
+First name*
+Last name*
+Business email*
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 3/23
+Deep learning
+Deep learning is a subset of machine learning that uses multilayered neural networks,
+called deep neural networks, that more closely simulate the complex decision-making
+power of the human brain.
+Deep neural networks include an input layer, at least three but usually hundreds of hidden
+layers, and an output layer, unlike neural networks used in classic machine learning
+
+emerged over more than 70 years:
+How artificial intelligence, machine learning, deep learning and generative AI are related.
+Directly underneath AI, we have machine learning, which involves creating models by
+training an algorithm to make predictions or decisions based on data. It encompasses a
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 2/23
+broad range of techniques that enable computers to learn from and make inferences based
+on data without being explicitly programmed for speciﬁc tasks.
+There are many types of machine learning techniques or algorithms, including linear
+regression, logistic regression, decision trees, random forest, support vector
+machines (SVMs), k-nearest neighbor (KNN), clustering and more. Each of these
+approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network
+
+Newell, J.C. Shaw and Herbert Simon create the Logic Theorist, the ﬁrst-ever running AI
+computer program.
+1967
+Frank Rosenblatt builds the Mark 1 Perceptron, the ﬁrst computer based on a neural
+network that ""learned"" through trial and error. Just a year later, Marvin Minsky and Seymour
+Papert publish a book titled Perceptrons, which becomes both the landmark work on neural
+networks and, at least for a while, an argument against future neural network research
+initiatives.
+1980
+Neural networks, which use a backpropagation algorithm to train itself, became widely
+used in AI applications.
+1995
+Stuart Russell and Peter Norvig publish Artiﬁcial Intelligence: A Modern
+Approach , which becomes one of the leading textbooks in the study of AI. In it, they
+delve into four potential goals or deﬁnitions of AI, which differentiates computer systems
+based on rationality and thinking versus acting.
+
+
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+
+Deep neural networks include an input layer, at least three but usually hundreds of hidden
+layers, and an output layer, unlike neural networks used in classic machine learning
+models, which usually have only one or two hidden layers.
+These multiple layers enable unsupervised learning: they can automate the extraction of
+features from large, unlabeled and unstructured data sets, and make their own predictions
+about what the data represents.
+Because deep learning doesn’t require human intervention, it enables machine learning at
+a tremendous scale. It is well suited to natural language processing (NLP), computer vision,
+and other tasks that involve the fast, accurate identiﬁcation complex patterns and
+relationships in large amounts of data. Some form of deep learning powers most of the
+artiﬁcial intelligence (AI) applications in our lives today.
+Deep learning also enables:
+* All fields required",Neural networks are modeled after the human brain's structure and function. A neural network consists of interconnected layers of nodes (analogous to neurons) that work together to process and analyze complex data.,"Neural networks are a type of machine learning algorithm inspired by the structure and function of the human brain. They are composed of layers of interconnected nodes or ""neurons,"" which process and transmit information.
+
+In a neural network, each node receives one or more inputs, performs a computation on those inputs, and then sends the output to other nodes. This process is repeated across multiple layers, allowing the network to learn and represent complex patterns in data.
+
+Neural networks are trained on large datasets, where the network learns to recognize patterns and make predictions or decisions based on that data. The training process involves adjusting the connections between nodes, or ""weights,"" to minimize the error between predicted and actual outputs.
+
+There are several types of neural networks, including:
+
+1. Feedforward networks: Where data flows only in one direction, from input layer to output layer.
+2. Recurrent networks: Where data flows in a loop, allowing the network to keep track of temporal relationships.
+3. Convolutional networks: Where data is processed using convolutional layers, which extract features from images.
+
+Neural networks have many applications, including:
+
+1. Image recognition and object detection
+2. Natural language processing and sentiment analysis
+3. Speech recognition and synthesis
+4. Predictive modeling and forecasting
+5. Robotics and autonomous systems
+
+Overall, neural networks are a powerful tool for machine learning and have revolutionized many fields, from computer vision to healthcare and finance."
+Q13,What is the role of hidden layers in deep learning?,"Deep neural networks include an input layer, at least three but usually hundreds of hidden
+layers, and an output layer, unlike neural networks used in classic machine learning
+models, which usually have only one or two hidden layers.
+These multiple layers enable unsupervised learning: they can automate the extraction of
+features from large, unlabeled and unstructured data sets, and make their own predictions
+about what the data represents.
+Because deep learning doesn’t require human intervention, it enables machine learning at
+a tremendous scale. It is well suited to natural language processing (NLP), computer vision,
+and other tasks that involve the fast, accurate identiﬁcation complex patterns and
+relationships in large amounts of data. Some form of deep learning powers most of the
+artiﬁcial intelligence (AI) applications in our lives today.
+Deep learning also enables:
+* All fields required
+
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+Stay up to date on the most important—and intriguing—industry news on AI, automation,
+data, quantum, infrastructure and security with the Think Newsletter, delivered twice
+weekly. 
+First name*
+Last name*
+Business email*
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 3/23
+Deep learning
+Deep learning is a subset of machine learning that uses multilayered neural networks,
+called deep neural networks, that more closely simulate the complex decision-making
+power of the human brain.
+Deep neural networks include an input layer, at least three but usually hundreds of hidden
+layers, and an output layer, unlike neural networks used in classic machine learning
+
+approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network
+(or artiﬁcial neural network). Neural networks are modeled after the human brain's
+structure and function. A neural network consists of interconnected layers of nodes
+(analogous to neurons) that work together to process and analyze complex data. Neural
+networks are well suited to tasks that involve identifying complex patterns and
+relationships in large amounts of data.
+The simplest form of machine learning is called supervised learning, which involves the use
+of labeled data sets to train algorithms to classify data or predict outcomes accurately. In
+supervised learning, humans pair each training example with an output label. The goal is
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+
+relationships in large amounts of data. Some form of deep learning powers most of the
+artiﬁcial intelligence (AI) applications in our lives today.
+Deep learning also enables:
+* All fields required
+Your subscription will be delivered in English. You will find an unsubscribe link in every newsletter.
+Refer to our IBM Privacy Statement for more information.
+Subscribe
+Semi-supervised learning, which combines supervised and unsupervised learning by
+using both labeled and unlabeled data to train AI models for classiﬁcation and
+regression tasks.
+–
+Self-supervised learning, which generates implicit labels from unstructured data, rather
+than relying on labeled data sets for supervisory signals.
+–
+Reinforcement learning, which learns by trial-and-error and reward functions rather
+than by extracting information from hidden patterns.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 4/23
+
+generate extended sequences of content (such as words in sentences, shapes in an
+image, frames of a video or commands in software code). Transformers are at the core
+of most of today’s headline-making generative AI tools, including ChatGPT and GPT-4,
+Copilot, BERT, Bard and Midjourney.
+–
+See what’s next
+Training, to create a foundation model.1.
+Tuning, to adapt the model to a speciﬁc application.2.
+Generation, evaluation and more tuning, to improve accuracy.3.
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 6/23
+or music generation, and multimodal foundation models that support several kinds of
+content.
+To create a foundation model, practitioners train a deep learning algorithm on huge
+volumes of relevant raw, unstructured, unlabeled data, such as terabytes or petabytes of
+data text or images or video from the internet. The training yields a neural network of","The answer is available in the PDF. According to the text, ""Deep neural networks include an input layer, at least three but usually hundreds of hidden layers, and an output layer..."" This indicates that the hidden layers play a crucial role in deep learning, enabling unsupervised learning, feature extraction, and prediction of complex patterns and relationships in large amounts of data.","In deep learning, hidden layers play a crucial role in the architecture of neural networks. The primary function of hidden layers is to transform and manipulate the input data in a way that allows the network to learn complex patterns and relationships.
+
+Hidden layers are layers of neurons that are not directly connected to the input layer or the output layer. They are called ""hidden"" because their outputs are not visible or directly observable. Instead, their outputs are used as inputs to the next layer.
+
+The main purposes of hidden layers are:
+
+1. **Feature extraction**: Hidden layers are designed to extract relevant features from the input data. By applying non-linear transformations to the input data, hidden layers can uncover complex patterns and relationships that may not be apparent in the raw data.
+2. **Representation learning**: Hidden layers can learn to represent the input data in a more abstract and compact form, which can be useful for tasks such as image classification, natural language processing, and speech recognition.
+3. **Non-linearity**: Hidden layers introduce non-linearity into the network, which allows the network to learn more complex relationships between inputs and outputs. Without non-linearity, the network would be limited to linear transformations, which are not sufficient for many tasks.
+4. **Hierarchical representation**: Hidden layers can learn to represent the input data at multiple levels of abstraction. This allows the network to capture both low-level and high-level features, which can be useful for tasks such as image recognition and object detection.
+
+The number of hidden layers and the number of neurons in each layer can be adjusted to suit the specific task and dataset. In general, more hidden layers and more neurons in each layer can lead to more complex and powerful representations, but also increase the risk of overfitting and decreased generalization performance.
+
+In summary, hidden layers are a critical component of deep learning architectures, allowing the network to learn complex patterns and relationships in the input data, and enabling the network to represent the data in a more abstract and compact form."
+Q14,How does machine learning improve accuracy?,"picking and manufacturing processes. This automation frees to work on higher value, more
+creative work.
+Enhanced decision-making
+Whether used for decision support or for fully automated decision-making, AI enables
+faster, more accurate predictions and reliable, data-driven decisions. Combined with
+automation, AI enables businesses to act on opportunities and respond to crises as they
+emerge, in real time and without human intervention.
+Fewer human errors
+AI can reduce human errors in various ways, from guiding people through the proper steps
+of a process, to flagging potential errors before they occur, and fully automating processes
+without human intervention. This is especially important in industries such as healthcare
+where, for example, AI-guided surgical robotics enable consistent precision.
+Machine learning algorithms can continually improve their accuracy and further reduce
+errors as they're exposed to more data and ""learn"" from experience.
+
+Deep neural networks include an input layer, at least three but usually hundreds of hidden
+layers, and an output layer, unlike neural networks used in classic machine learning
+models, which usually have only one or two hidden layers.
+These multiple layers enable unsupervised learning: they can automate the extraction of
+features from large, unlabeled and unstructured data sets, and make their own predictions
+about what the data represents.
+Because deep learning doesn’t require human intervention, it enables machine learning at
+a tremendous scale. It is well suited to natural language processing (NLP), computer vision,
+and other tasks that involve the fast, accurate identiﬁcation complex patterns and
+relationships in large amounts of data. Some form of deep learning powers most of the
+artiﬁcial intelligence (AI) applications in our lives today.
+Deep learning also enables:
+* All fields required
+
+emerged over more than 70 years:
+How artificial intelligence, machine learning, deep learning and generative AI are related.
+Directly underneath AI, we have machine learning, which involves creating models by
+training an algorithm to make predictions or decisions based on data. It encompasses a
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 2/23
+broad range of techniques that enable computers to learn from and make inferences based
+on data without being explicitly programmed for speciﬁc tasks.
+There are many types of machine learning techniques or algorithms, including linear
+regression, logistic regression, decision trees, random forest, support vector
+machines (SVMs), k-nearest neighbor (KNN), clustering and more. Each of these
+approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network
+
+approaches is suited to different kinds of problems and data.
+But one of the most popular types of machine learning algorithm is called a neural network
+(or artiﬁcial neural network). Neural networks are modeled after the human brain's
+structure and function. A neural network consists of interconnected layers of nodes
+(analogous to neurons) that work together to process and analyze complex data. Neural
+networks are well suited to tasks that involve identifying complex patterns and
+relationships in large amounts of data.
+The simplest form of machine learning is called supervised learning, which involves the use
+of labeled data sets to train algorithms to classify data or predict outcomes accurately. In
+supervised learning, humans pair each training example with an output label. The goal is
+for the model to learn the mapping between inputs and outputs in the training data, so it
+can predict the labels of new, unseen data.
+Join 100,000+ subscribers for the latest tech
+news
+
+Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+experience. They can make detailed recommendations to users and experts. They can act
+independently, replacing the need for human intelligence or intervention (a classic example
+being a self-driving car).
+But in 2024, most AI researchers, practitioners and most AI-related headlines are focused
+on breakthroughs in generative AI (gen AI), a technology that can create original text,
+images, video and other content. To fully understand generative AI, it’s important to ﬁrst
+understand the technologies on which generative AI tools are built: machine learning (ML)
+and deep learning.
+Machine learning
+A simple way to think about AI is as a series of nested or derivative concepts that have
+emerged over more than 70 years:
+How artificial intelligence, machine learning, deep learning and generative AI are related.",The answer is not available in the PDF.,"Machine learning improves accuracy in several ways:
+
+1. **Pattern recognition**: Machine learning algorithms can identify patterns in data that may not be immediately apparent to humans. By analyzing large amounts of data, these algorithms can learn to recognize patterns and relationships that can lead to more accurate predictions or classifications.
+2. **Training on large datasets**: Machine learning algorithms can be trained on large datasets, which allows them to learn from a vast amount of data and improve their accuracy over time. This is particularly useful for tasks such as image recognition, natural language processing, and predictive modeling.
+3. **Self-supervised learning**: Some machine learning algorithms, such as self-supervised learning, can learn from unlabeled data. This allows the algorithm to identify patterns and relationships in the data without the need for human labeling, which can improve accuracy.
+4. **Ensemble methods**: Machine learning algorithms can be combined using ensemble methods, such as bagging and boosting, to improve accuracy. These methods involve training multiple models on the same data and combining their predictions to produce a more accurate result.
+5. **Hyperparameter tuning**: Machine learning algorithms often have hyperparameters that need to be tuned for optimal performance. Hyperparameter tuning involves adjusting these parameters to find the best combination, which can improve accuracy.
+6. **Regularization techniques**: Regularization techniques, such as L1 and L2 regularization, can help prevent overfitting and improve accuracy. Overfitting occurs when a model is too complex and fits the training data too closely, resulting in poor performance on new, unseen data.
+7. **Transfer learning**: Transfer learning involves using pre-trained models as a starting point for a new task. This can be particularly useful for tasks such as image recognition, where the pre-trained model has already learned to recognize common patterns and features.
+8. **Active learning**: Active learning involves selecting the most informative data points to label, which can help improve accuracy. By focusing on the most uncertain or informative data points, the model can learn to recognize patterns and relationships more accurately.
+9. **Uncertainty estimation**: Some machine learning algorithms, such as Bayesian neural networks, can estimate the uncertainty of their predictions. This can help improve accuracy by identifying areas where the model is most uncertain and requiring additional data or labeling.
+10. **Human-in-the-loop**: Human-in-the-loop involves involving humans in the machine learning process, such as through active learning or human evaluation. This can help improve accuracy by providing additional data or feedback to the model.
+
+By combining these techniques, machine learning can improve accuracy and produce more reliable results."
+Q15,What are the applications of AI?,"What is artiﬁcial intelligence (AI)?
+Updated 02 October 2026
+By Cole Stryker and Eda Kavlakoglu
+What is AI? 
+Artiﬁcial intelligence (AI) is technology that enables computers and
+machines to simulate human learning, comprehension, problem solving,
+Join IBM at AWS re:Invent
+Discover how we deliver AI speed with enterprise control on AWS
+Published 09 August 2024
+Welcome
+Introduction
+Machine Learning
+AI Agents
+Enterprise AI
+Responsible AI
+AI for code
+Chatbots
+AI platforms
+Artificial general intelligence (AGI)
+Prompt engineering
+AI use cases
+Industry applications
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 1/23
+decision making, creativity and autonomy.
+Applications and devices equipped with AI can see and identify objects. They can
+understand and respond to human language. They can learn from new information and
+
+might contain personal information, control what data goes into the
+model in the ﬁrst place, and to build adaptable systems that can adjust to
+changes in regulation and attitudes around AI ethics.
+Weak AI vs. Strong AI 
+In order to contextualize the use of AI at various levels of complexity and sophistication,
+researchers have deﬁned several types of AI that refer to its level of sophistication:
+Weak AI: Also known as “narrow AI,” deﬁnes AI systems designed to perform a speciﬁc
+task or a set of tasks. Examples might include “smart” voice assistant apps, such as
+Amazon’s Alexa, Apple’s Siri, a social media chatbot or the autonomous vehicles promised
+by Tesla.
+Strong AI: Also known as “artiﬁcial general intelligence” (AGI) or “general AI,” possess the
+ability to understand, learn and apply knowledge across a wide range of tasks at a level
+equal to or surpassing human intelligence. This level of AI is currently theoretical and no
+
+answers in the wanted format.
+–
+Reinforcement learning with human feedback (RLHF), in which human users evaluate
+the accuracy or relevance of model outputs so that the model can improve itself. This
+can be as simple as having people type or talk back corrections to a chatbot or virtual
+assistant.
+–
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 7/23
+AI agents and agentic AI
+An AI agent is an autonomous AI program, it can perform tasks and accomplish goals on
+behalf of a user or another system without human intervention, by designing its own
+workflow and using available tools (other applications or services).
+Agentic AI is a system of multiple AI agents, the efforts of which are coordinated, or
+orchestrated, to accomplish a more complex task or a greater goal than any single agent in
+the system could accomplish.
+
+based on rationality and thinking versus acting.
+
+
+Welcome
+11/6/26, 9:22 AM What Is Artificial Intelligence (AI)? | IBM
+https://www.ibm.com/think/topics/artificial-intelligence?utm_source=chatgpt.com 15/23
+1997
+IBM's Deep Blue beats then world chess champion Garry Kasparov, in a chess match (and
+rematch).
+2004
+John McCarthy writes a paper, What Is Artiﬁcial Intelligence? , and proposes an often-
+cited deﬁnition of AI. By this time, the era of big data and cloud computing is underway,
+enabling organizations to manage ever-larger data estates, which will one day be used to
+train AI models. 
+2011
+IBM Watson® beats champions Ken Jennings and Brad Rutter at Jeopardy! Also, around
+this time, data science begins to emerge as a popular discipline.
+2015
+Baidu's Minwa supercomputer uses a special deep neural network called a convolutional
+neural network to identify and categorize images with a higher rate of accuracy than the
+average human.
+2016
+
+Machine learning algorithms can continually improve their accuracy and further reduce
+errors as they're exposed to more data and ""learn"" from experience.
+Round-the-clock availability and consistency
+AI is always on, available around the clock, and delivers consistent performance every
+time. Tools such as AI chatbots or virtual assistants can lighten stafﬁng demands for
+customer service or support. In other applications such as materials processing or
+production lines, AI can help maintain consistent work quality and output levels when used
+to complete repetitive or tedious tasks.
+Reduced physical risk
+By automating dangerous work such as animal control, handling explosives, performing
+tasks in deep ocean water, high altitudes or in outer space, AI can eliminate the need to put
+human workers at risk of injury or worse. While they have yet to be perfected, self-driving
+cars and other vehicles offer the potential to reduce the risk of injury to passengers.
+AI use cases 
+Welcome","The applications of AI include:
+
+1. Smart voice assistant apps, such as Amazon's Alexa, Apple's Siri, and social media chatbots.
+2. Autonomous vehicles, such as those promised by Tesla.
+3. AI agents and agentic AI, which can perform tasks and accomplish goals on behalf of a user or another system without human intervention.
+4. Systems of multiple AI agents, which are coordinated to accomplish a more complex task or a greater goal than any single agent in the system could accomplish.
+5. AI chatbots or virtual assistants, which can lighten staffing demands for customer service or support.
+6. Materials processing or production lines, where AI can help maintain consistent work quality and output levels.
+7. Reducing physical risk by automating dangerous work, such as animal control, handling explosives, performing tasks in deep ocean water, high altitudes, or in outer space.
+8. Self-driving cars and other vehicles, which offer the potential to reduce the risk of injury to passengers.","The applications of Artificial Intelligence (AI) are vast and diverse, and they continue to expand as the technology advances. Here are some of the most significant applications of AI:
+
+1. **Virtual Assistants**: AI-powered virtual assistants, such as Siri, Alexa, and Google Assistant, can perform tasks, answer questions, and provide information to users.
+2. **Image and Speech Recognition**: AI can recognize and interpret images, speech, and text, enabling applications such as facial recognition, self-driving cars, and voice-controlled interfaces.
+3. **Natural Language Processing (NLP)**: AI can understand, generate, and process human language, enabling applications such as chatbots, language translation, and text summarization.
+4. **Predictive Maintenance**: AI can analyze data from sensors and equipment to predict when maintenance is needed, reducing downtime and increasing efficiency.
+5. **Healthcare**: AI can analyze medical images, diagnose diseases, and develop personalized treatment plans, improving patient outcomes and reducing costs.
+6. **Customer Service**: AI-powered chatbots and virtual assistants can provide 24/7 customer support, answering frequently asked questions and routing complex issues to human representatives.
+7. **Financial Analysis**: AI can analyze financial data, identify trends, and make predictions, enabling applications such as risk management, portfolio optimization, and fraud detection.
+8. **Cybersecurity**: AI can detect and respond to cyber threats in real-time, improving the security of networks, systems, and data.
+9. **Autonomous Vehicles**: AI can enable self-driving cars, trucks, and drones, improving transportation efficiency, safety, and reducing emissions.
+10. **Education**: AI can personalize learning experiences, automate grading, and provide real-time feedback, improving student outcomes and teacher productivity.
+11. **Marketing and Advertising**: AI can analyze customer behavior, predict preferences, and optimize marketing campaigns, improving ROI and customer engagement.
+12. **Supply Chain Management**: AI can optimize inventory management, predict demand, and improve logistics, reducing costs and improving delivery times.
+13. **Environmental Monitoring**: AI can analyze data from sensors and satellites to monitor environmental conditions, track climate change, and predict natural disasters.
+14. **Robotics**: AI can enable robots to perform tasks that require dexterity, perception, and decision-making, improving manufacturing efficiency and productivity.
+15. **Scientific Research**: AI can analyze large datasets, identify patterns, and make predictions, accelerating scientific discovery and innovation.
+
+These are just a few examples of the many applications of AI. As the technology continues to evolve, we can expect to see even more innovative applications in the future."
